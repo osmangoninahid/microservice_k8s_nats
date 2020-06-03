@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import { updateIfCurrentPlugin } from 'mongoose-update-if-current';
-import { OrderStatus } from '@etickets/common';
+import { OrderStatus } from '@evaly/common';
 import { TicketDoc } from './ticket';
 
 export { OrderStatus };

@@ -6,7 +6,7 @@ import {
   requireAuth,
   NotAuthorizedError,
   BadRequestError,
-} from '@etickets/common';
+} from '@evaly/common';
 import { Ticket } from '../models/ticket';
 import { TicketUpdatedPublisher } from '../events/publishers/ticket-updated-publisher';
 import { natsWrapper } from '../nats-wrapper';

@@ -1,5 +1,5 @@
 import { Message } from 'node-nats-streaming';
-import { Listener, OrderCreatedEvent, Subjects } from '@etickets/common';
+import { Listener, OrderCreatedEvent, Subjects } from '@evaly/common';
 import { queueGroupName } from './queue-group-name';
 import { Ticket } from '../../models/ticket';
 import { TicketUpdatedPublisher } from '../publishers/ticket-updated-publisher';

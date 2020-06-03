@@ -7,7 +7,7 @@ import {
   NotAuthorizedError,
   NotFoundError,
   OrderStatus,
-} from '@etickets/common';
+} from '@evaly/common';
 import { stripe } from '../stripe';
 import { Order } from '../models/order';
 import { Payment } from '../models/payment';

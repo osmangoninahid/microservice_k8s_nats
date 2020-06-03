@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import request from 'supertest';
-import { OrderStatus } from '@etickets/common';
+import { OrderStatus } from '@evaly/common';
 import { app } from '../../app';
 import { Order } from '../../models/order';
 import { stripe } from '../../stripe';

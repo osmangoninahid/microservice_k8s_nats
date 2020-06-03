@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import { requireAuth } from '@etickets/common';
+import { requireAuth } from '@evaly/common';
 import { Order } from '../models/order';
 
 const router = express.Router();

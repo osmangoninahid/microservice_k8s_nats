@@ -1,4 +1,4 @@
-import { Listener, OrderCancelledEvent, Subjects } from '@etickets/common';
+import { Listener, OrderCancelledEvent, Subjects } from '@evaly/common';
 import { Message } from 'node-nats-streaming';
 import { queueGroupName } from './queue-group-name';
 import { Ticket } from '../../models/ticket';
